@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F393CF0516BBA1D300614009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F393CF0416BBA1D300614009 /* UIKit.framework */; };
+		F393CF0716BBA1D300614009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F393CF0616BBA1D300614009 /* Foundation.framework */; };
+		F393CF0916BBA1D400614009 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F393CF0816BBA1D300614009 /* CoreGraphics.framework */; };
+		F393CF0F16BBA1D400614009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F393CF0D16BBA1D400614009 /* InfoPlist.strings */; };
+		F393CF1116BBA1D400614009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F393CF1016BBA1D400614009 /* main.m */; };
+		F393CF1516BBA1D400614009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F393CF1416BBA1D400614009 /* AppDelegate.m */; };
+		F393CF1816BBA1D400614009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F393CF1716BBA1D400614009 /* ViewController.m */; };
+		F393CF1B16BBA1D400614009 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F393CF1916BBA1D400614009 /* ViewController.xib */; };
+		F393CF2216BBA1F500614009 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F393CF2116BBA1F500614009 /* OpenGLES.framework */; };
+		F393CF2416BBA1FE00614009 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F393CF2316BBA1FE00614009 /* QuartzCore.framework */; };
+		F393CF2F16BBA21700614009 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F393CF2616BBA21700614009 /* OpenGLView.m */; };
+		F393CF3016BBA21700614009 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F393CF2716BBA21700614009 /* FragmentShader.glsl */; };
+		F393CF3116BBA21700614009 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F393CF2816BBA21700614009 /* VertexShader.glsl */; };
+		F393CF3216BBA21700614009 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F393CF2A16BBA21700614009 /* GLESUtils.m */; };
+		F393CF3316BBA21700614009 /* ksMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = F393CF2C16BBA21700614009 /* ksMatrix.c */; };
+		F393CF3416BBA21700614009 /* ksVector.c in Sources */ = {isa = PBXBuildFile; fileRef = F393CF2E16BBA21700614009 /* ksVector.c */; };
+		F393CF3616BBC74700614009 /* PerPixelVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F393CF3516BBC74700614009 /* PerPixelVertex.glsl */; };
+		F393CF3816BBC78600614009 /* PerPixelFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F393CF3716BBC78600614009 /* PerPixelFragment.glsl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F393CF0016BBA1D300614009 /* Tutorial07Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial07Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F393CF0416BBA1D300614009 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F393CF0616BBA1D300614009 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F393CF0816BBA1D300614009 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F393CF0C16BBA1D400614009 /* Tutorial07Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial07Test-Info.plist"; sourceTree = "<group>"; };
+		F393CF0E16BBA1D400614009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F393CF1016BBA1D400614009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F393CF1216BBA1D400614009 /* Tutorial07Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tutorial07Test-Prefix.pch"; sourceTree = "<group>"; };
+		F393CF1316BBA1D400614009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F393CF1416BBA1D400614009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F393CF1616BBA1D400614009 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F393CF1716BBA1D400614009 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F393CF1A16BBA1D400614009 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F393CF2116BBA1F500614009 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F393CF2316BBA1FE00614009 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F393CF2516BBA21700614009 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		F393CF2616BBA21700614009 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		F393CF2716BBA21700614009 /* FragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		F393CF2816BBA21700614009 /* VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
+		F393CF2916BBA21700614009 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		F393CF2A16BBA21700614009 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		F393CF2B16BBA21700614009 /* ksMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksMatrix.h; sourceTree = "<group>"; };
+		F393CF2C16BBA21700614009 /* ksMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksMatrix.c; sourceTree = "<group>"; };
+		F393CF2D16BBA21700614009 /* ksVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksVector.h; sourceTree = "<group>"; };
+		F393CF2E16BBA21700614009 /* ksVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksVector.c; sourceTree = "<group>"; };
+		F393CF3516BBC74700614009 /* PerPixelVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PerPixelVertex.glsl; sourceTree = "<group>"; };
+		F393CF3716BBC78600614009 /* PerPixelFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PerPixelFragment.glsl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F393CEFD16BBA1D300614009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F393CF2416BBA1FE00614009 /* QuartzCore.framework in Frameworks */,
+				F393CF2216BBA1F500614009 /* OpenGLES.framework in Frameworks */,
+				F393CF0516BBA1D300614009 /* UIKit.framework in Frameworks */,
+				F393CF0716BBA1D300614009 /* Foundation.framework in Frameworks */,
+				F393CF0916BBA1D400614009 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F393CEF516BBA1D300614009 = {
+			isa = PBXGroup;
+			children = (
+				F393CF2316BBA1FE00614009 /* QuartzCore.framework */,
+				F393CF2116BBA1F500614009 /* OpenGLES.framework */,
+				F393CF0A16BBA1D400614009 /* Tutorial07Test */,
+				F393CF0316BBA1D300614009 /* Frameworks */,
+				F393CF0116BBA1D300614009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F393CF0116BBA1D300614009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F393CF0016BBA1D300614009 /* Tutorial07Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F393CF0316BBA1D300614009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F393CF0416BBA1D300614009 /* UIKit.framework */,
+				F393CF0616BBA1D300614009 /* Foundation.framework */,
+				F393CF0816BBA1D300614009 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F393CF0A16BBA1D400614009 /* Tutorial07Test */ = {
+			isa = PBXGroup;
+			children = (
+				F393CF1316BBA1D400614009 /* AppDelegate.h */,
+				F393CF1416BBA1D400614009 /* AppDelegate.m */,
+				F393CF1616BBA1D400614009 /* ViewController.h */,
+				F393CF1716BBA1D400614009 /* ViewController.m */,
+				F393CF1916BBA1D400614009 /* ViewController.xib */,
+				F393CF2516BBA21700614009 /* OpenGLView.h */,
+				F393CF2616BBA21700614009 /* OpenGLView.m */,
+				F393CF2716BBA21700614009 /* FragmentShader.glsl */,
+				F393CF2816BBA21700614009 /* VertexShader.glsl */,
+				F393CF3516BBC74700614009 /* PerPixelVertex.glsl */,
+				F393CF3716BBC78600614009 /* PerPixelFragment.glsl */,
+				F393CF2916BBA21700614009 /* GLESUtils.h */,
+				F393CF2A16BBA21700614009 /* GLESUtils.m */,
+				F393CF2B16BBA21700614009 /* ksMatrix.h */,
+				F393CF2C16BBA21700614009 /* ksMatrix.c */,
+				F393CF2D16BBA21700614009 /* ksVector.h */,
+				F393CF2E16BBA21700614009 /* ksVector.c */,
+				F393CF0B16BBA1D400614009 /* Supporting Files */,
+			);
+			path = Tutorial07Test;
+			sourceTree = "<group>";
+		};
+		F393CF0B16BBA1D400614009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F393CF0C16BBA1D400614009 /* Tutorial07Test-Info.plist */,
+				F393CF0D16BBA1D400614009 /* InfoPlist.strings */,
+				F393CF1016BBA1D400614009 /* main.m */,
+				F393CF1216BBA1D400614009 /* Tutorial07Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F393CEFF16BBA1D300614009 /* Tutorial07Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F393CF1E16BBA1D400614009 /* Build configuration list for PBXNativeTarget "Tutorial07Test" */;
+			buildPhases = (
+				F393CEFC16BBA1D300614009 /* Sources */,
+				F393CEFD16BBA1D300614009 /* Frameworks */,
+				F393CEFE16BBA1D300614009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial07Test;
+			productName = Tutorial07Test;
+			productReference = F393CF0016BBA1D300614009 /* Tutorial07Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F393CEF716BBA1D300614009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F393CEFA16BBA1D300614009 /* Build configuration list for PBXProject "Tutorial07Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F393CEF516BBA1D300614009;
+			productRefGroup = F393CF0116BBA1D300614009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F393CEFF16BBA1D300614009 /* Tutorial07Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F393CEFE16BBA1D300614009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F393CF0F16BBA1D400614009 /* InfoPlist.strings in Resources */,
+				F393CF1B16BBA1D400614009 /* ViewController.xib in Resources */,
+				F393CF3016BBA21700614009 /* FragmentShader.glsl in Resources */,
+				F393CF3116BBA21700614009 /* VertexShader.glsl in Resources */,
+				F393CF3616BBC74700614009 /* PerPixelVertex.glsl in Resources */,
+				F393CF3816BBC78600614009 /* PerPixelFragment.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F393CEFC16BBA1D300614009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F393CF1116BBA1D400614009 /* main.m in Sources */,
+				F393CF1516BBA1D400614009 /* AppDelegate.m in Sources */,
+				F393CF1816BBA1D400614009 /* ViewController.m in Sources */,
+				F393CF2F16BBA21700614009 /* OpenGLView.m in Sources */,
+				F393CF3216BBA21700614009 /* GLESUtils.m in Sources */,
+				F393CF3316BBA21700614009 /* ksMatrix.c in Sources */,
+				F393CF3416BBA21700614009 /* ksVector.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F393CF0D16BBA1D400614009 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F393CF0E16BBA1D400614009 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F393CF1916BBA1D400614009 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F393CF1A16BBA1D400614009 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F393CF1C16BBA1D400614009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F393CF1D16BBA1D400614009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F393CF1F16BBA1D400614009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial07Test/Tutorial07Test-Prefix.pch";
+				INFOPLIST_FILE = "Tutorial07Test/Tutorial07Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F393CF2016BBA1D400614009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial07Test/Tutorial07Test-Prefix.pch";
+				INFOPLIST_FILE = "Tutorial07Test/Tutorial07Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F393CEFA16BBA1D300614009 /* Build configuration list for PBXProject "Tutorial07Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F393CF1C16BBA1D400614009 /* Debug */,
+				F393CF1D16BBA1D400614009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F393CF1E16BBA1D400614009 /* Build configuration list for PBXNativeTarget "Tutorial07Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F393CF1F16BBA1D400614009 /* Debug */,
+				F393CF2016BBA1D400614009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F393CEF716BBA1D300614009 /* Project object */;
+}

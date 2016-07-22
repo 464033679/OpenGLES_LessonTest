@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39093E316B9FAD800EBC8BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39093E216B9FAD800EBC8BE /* UIKit.framework */; };
+		F39093E516B9FAD800EBC8BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39093E416B9FAD800EBC8BE /* Foundation.framework */; };
+		F39093E716B9FAD800EBC8BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39093E616B9FAD800EBC8BE /* CoreGraphics.framework */; };
+		F39093ED16B9FAD800EBC8BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F39093EB16B9FAD800EBC8BE /* InfoPlist.strings */; };
+		F39093EF16B9FAD800EBC8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F39093EE16B9FAD800EBC8BE /* main.m */; };
+		F39093F316B9FAD800EBC8BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F39093F216B9FAD800EBC8BE /* AppDelegate.m */; };
+		F39093F616B9FAD800EBC8BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39093F516B9FAD800EBC8BE /* ViewController.m */; };
+		F39093F916B9FAD800EBC8BE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39093F716B9FAD800EBC8BE /* ViewController.xib */; };
+		F390940016B9FAEA00EBC8BE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39093FF16B9FAEA00EBC8BE /* OpenGLES.framework */; };
+		F390940216B9FAF700EBC8BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F390940116B9FAF700EBC8BE /* QuartzCore.framework */; };
+		F393878916B9FC7700291F39 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F393878616B9FC7700291F39 /* OpenGLView.m */; };
+		F393878A16B9FC7700291F39 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F393878816B9FC7700291F39 /* GLESUtils.m */; };
+		F393879016B9FC8400291F39 /* ksMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = F393878D16B9FC8400291F39 /* ksMatrix.c */; };
+		F393879116B9FC8400291F39 /* ksVector.c in Sources */ = {isa = PBXBuildFile; fileRef = F393878F16B9FC8400291F39 /* ksVector.c */; };
+		F393879416B9FC9200291F39 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F393879216B9FC9200291F39 /* FragmentShader.glsl */; };
+		F393879516B9FC9200291F39 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = F393879316B9FC9200291F39 /* VertexShader.glsl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F39093DE16B9FAD800EBC8BE /* Tutorial06Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial06Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39093E216B9FAD800EBC8BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F39093E416B9FAD800EBC8BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F39093E616B9FAD800EBC8BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F39093EA16B9FAD800EBC8BE /* Tutorial06Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tutorial06Test-Info.plist"; sourceTree = "<group>"; };
+		F39093EC16B9FAD800EBC8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F39093EE16B9FAD800EBC8BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F39093F016B9FAD800EBC8BE /* Tutorial06Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tutorial06Test-Prefix.pch"; sourceTree = "<group>"; };
+		F39093F116B9FAD800EBC8BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F39093F216B9FAD800EBC8BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F39093F416B9FAD800EBC8BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F39093F516B9FAD800EBC8BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F39093F816B9FAD800EBC8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F39093FF16B9FAEA00EBC8BE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F390940116B9FAF700EBC8BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F393878516B9FC7700291F39 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		F393878616B9FC7700291F39 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		F393878716B9FC7700291F39 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		F393878816B9FC7700291F39 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		F393878C16B9FC8400291F39 /* ksMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksMatrix.h; sourceTree = "<group>"; };
+		F393878D16B9FC8400291F39 /* ksMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksMatrix.c; sourceTree = "<group>"; };
+		F393878E16B9FC8400291F39 /* ksVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksVector.h; sourceTree = "<group>"; };
+		F393878F16B9FC8400291F39 /* ksVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksVector.c; sourceTree = "<group>"; };
+		F393879216B9FC9200291F39 /* FragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		F393879316B9FC9200291F39 /* VertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39093DB16B9FAD800EBC8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F390940216B9FAF700EBC8BE /* QuartzCore.framework in Frameworks */,
+				F390940016B9FAEA00EBC8BE /* OpenGLES.framework in Frameworks */,
+				F39093E316B9FAD800EBC8BE /* UIKit.framework in Frameworks */,
+				F39093E516B9FAD800EBC8BE /* Foundation.framework in Frameworks */,
+				F39093E716B9FAD800EBC8BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39093D316B9FAD800EBC8BE = {
+			isa = PBXGroup;
+			children = (
+				F390940116B9FAF700EBC8BE /* QuartzCore.framework */,
+				F39093FF16B9FAEA00EBC8BE /* OpenGLES.framework */,
+				F39093E816B9FAD800EBC8BE /* Tutorial06Test */,
+				F39093E116B9FAD800EBC8BE /* Frameworks */,
+				F39093DF16B9FAD800EBC8BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39093DF16B9FAD800EBC8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39093DE16B9FAD800EBC8BE /* Tutorial06Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39093E116B9FAD800EBC8BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F39093E216B9FAD800EBC8BE /* UIKit.framework */,
+				F39093E416B9FAD800EBC8BE /* Foundation.framework */,
+				F39093E616B9FAD800EBC8BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F39093E816B9FAD800EBC8BE /* Tutorial06Test */ = {
+			isa = PBXGroup;
+			children = (
+				F39093F116B9FAD800EBC8BE /* AppDelegate.h */,
+				F39093F216B9FAD800EBC8BE /* AppDelegate.m */,
+				F39093F416B9FAD800EBC8BE /* ViewController.h */,
+				F39093F516B9FAD800EBC8BE /* ViewController.m */,
+				F39093F716B9FAD800EBC8BE /* ViewController.xib */,
+				F393878516B9FC7700291F39 /* OpenGLView.h */,
+				F393878616B9FC7700291F39 /* OpenGLView.m */,
+				F393879216B9FC9200291F39 /* FragmentShader.glsl */,
+				F393879316B9FC9200291F39 /* VertexShader.glsl */,
+				F393878716B9FC7700291F39 /* GLESUtils.h */,
+				F393878816B9FC7700291F39 /* GLESUtils.m */,
+				F393878C16B9FC8400291F39 /* ksMatrix.h */,
+				F393878D16B9FC8400291F39 /* ksMatrix.c */,
+				F393878E16B9FC8400291F39 /* ksVector.h */,
+				F393878F16B9FC8400291F39 /* ksVector.c */,
+				F39093E916B9FAD800EBC8BE /* Supporting Files */,
+			);
+			path = Tutorial06Test;
+			sourceTree = "<group>";
+		};
+		F39093E916B9FAD800EBC8BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39093EA16B9FAD800EBC8BE /* Tutorial06Test-Info.plist */,
+				F39093EB16B9FAD800EBC8BE /* InfoPlist.strings */,
+				F39093EE16B9FAD800EBC8BE /* main.m */,
+				F39093F016B9FAD800EBC8BE /* Tutorial06Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39093DD16B9FAD800EBC8BE /* Tutorial06Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39093FC16B9FAD800EBC8BE /* Build configuration list for PBXNativeTarget "Tutorial06Test" */;
+			buildPhases = (
+				F39093DA16B9FAD800EBC8BE /* Sources */,
+				F39093DB16B9FAD800EBC8BE /* Frameworks */,
+				F39093DC16B9FAD800EBC8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial06Test;
+			productName = Tutorial06Test;
+			productReference = F39093DE16B9FAD800EBC8BE /* Tutorial06Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39093D516B9FAD800EBC8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F39093D816B9FAD800EBC8BE /* Build configuration list for PBXProject "Tutorial06Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F39093D316B9FAD800EBC8BE;
+			productRefGroup = F39093DF16B9FAD800EBC8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39093DD16B9FAD800EBC8BE /* Tutorial06Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39093DC16B9FAD800EBC8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39093ED16B9FAD800EBC8BE /* InfoPlist.strings in Resources */,
+				F39093F916B9FAD800EBC8BE /* ViewController.xib in Resources */,
+				F393879416B9FC9200291F39 /* FragmentShader.glsl in Resources */,
+				F393879516B9FC9200291F39 /* VertexShader.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39093DA16B9FAD800EBC8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39093EF16B9FAD800EBC8BE /* main.m in Sources */,
+				F39093F316B9FAD800EBC8BE /* AppDelegate.m in Sources */,
+				F39093F616B9FAD800EBC8BE /* ViewController.m in Sources */,
+				F393878916B9FC7700291F39 /* OpenGLView.m in Sources */,
+				F393878A16B9FC7700291F39 /* GLESUtils.m in Sources */,
+				F393879016B9FC8400291F39 /* ksMatrix.c in Sources */,
+				F393879116B9FC8400291F39 /* ksVector.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F39093EB16B9FAD800EBC8BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39093EC16B9FAD800EBC8BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F39093F716B9FAD800EBC8BE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39093F816B9FAD800EBC8BE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39093FA16B9FAD800EBC8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F39093FB16B9FAD800EBC8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39093FD16B9FAD800EBC8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial06Test/Tutorial06Test-Prefix.pch";
+				INFOPLIST_FILE = "Tutorial06Test/Tutorial06Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F39093FE16B9FAD800EBC8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tutorial06Test/Tutorial06Test-Prefix.pch";
+				INFOPLIST_FILE = "Tutorial06Test/Tutorial06Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39093D816B9FAD800EBC8BE /* Build configuration list for PBXProject "Tutorial06Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39093FA16B9FAD800EBC8BE /* Debug */,
+				F39093FB16B9FAD800EBC8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39093FC16B9FAD800EBC8BE /* Build configuration list for PBXNativeTarget "Tutorial06Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39093FD16B9FAD800EBC8BE /* Debug */,
+				F39093FE16B9FAD800EBC8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39093D516B9FAD800EBC8BE /* Project object */;
+}
